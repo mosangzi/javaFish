@@ -1,14 +1,13 @@
 package com.losy;
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
-        Student s = new Student();
-        s.name="losy";
-        s.age = 20;
-        System.out.println(s.name);
-        System.out.println(s.age);
+        for (int i = 0; i < 10; i++) {
+            if (i == 2) {
+                return;
+            }
+            System.out.println("hello");
+        }
     }
 }
