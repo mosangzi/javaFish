@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        System.out.println("你输入的是： "+ str);
-        sc.close();
+        Student s = new Student();
+        s.name="losy";
+        s.age = 20;
+        System.out.println(s.name);
+        System.out.println(s.age);
     }
 }
