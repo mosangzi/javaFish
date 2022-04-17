@@ -3,6 +3,7 @@ package com.losy;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(Student.a);
+        String str = "assa";
+        System.out.println(str.toUpperCase());
     }
 }
