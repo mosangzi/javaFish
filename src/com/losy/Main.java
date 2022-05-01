@@ -3,12 +3,8 @@ package com.losy;
 public class Main {
 
     public static void main(String[] args) {
-        String str = "assa";
-        System.out.println(str.toUpperCase());
-        int[] a = new int[4];
-        for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i]);
-        }
-        System.out.println(a);
+        int[][] arr = new int[][]{{1, 2}, {3, 4}, {5, 6}};
+        System.out.println(arr[2][1]);
+        System.out.println(arr.length);
     }
 }
