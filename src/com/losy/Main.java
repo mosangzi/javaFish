@@ -4,13 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
         int[] arr = {6, 4, 8, 2, 3, 7};
-        sort(arr);
+        bubbleSort(arr);
         for (int j : arr) {
             System.out.print(j + " ");
         }
     }
 
-    public static void sort(int[] arr) {
+    public static void bubbleSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             boolean flag = true;
             for (int j = 0; j < arr.length - 1 - i; j++) {
