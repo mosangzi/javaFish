@@ -1,2 +1,5 @@
 # javaBaseLearn
-Learn Java base
+Learn Java base with YouTube Amigoscode.
+
+# process
+- [ ] packages
