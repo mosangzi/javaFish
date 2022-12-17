@@ -1,26 +1,35 @@
 package com.losy;
 
+import java.time.LocalDate;
+
 public class Main {
     public static void main(String[] args) {
-        byte theByte =  -128;
-        short theShort = 8_989;
-        int theInt = 2147483647;
-        long theLong = 2823482L;
-
-        float pi = 3.14F;
-        double doublePi = 3.1415;
-
-        boolean isAdult = true;
-
-        char nameInitial = 'A';
-
-        System.out.println(theByte);
-        System.out.println(theShort);
-        System.out.println(theInt);
-        System.out.println(theLong);
-        System.out.println(pi);
-        System.out.println(doublePi);
-        System.out.println(isAdult);
-        System.out.println(nameInitial);
+        String name = "word";
+        System.out.println(name);
+        System.out.println(name.toUpperCase());
+        LocalDate now = LocalDate.now();
+        System.out.println(now.getMonth());
+        int a  = 10;
+        int b = a;
+        a = 100;
+        System.out.println(a==b);
+        System.out.println(args.length);
+        for (int i = 0; i < args.length; i++) {
+            System.out.println(i);
+        }
+        System.out.println("---");
+        Person alex = new Person("alex");
+        Person mariam = alex;
+        System.out.println(alex.name);
+        alex.name = "Alexander";
+        System.out.println(mariam);
+        System.out.println(alex.name);
+        System.out.println(alex == mariam);
+    }
+    static class Person{
+        String name;
+        Person(String name){
+            this.name = name;
+        }
     }
 }

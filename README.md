@@ -5,6 +5,7 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 - [x] packages
 - [x] comment
 - [x] variable
+- [x] reference types
 
 ## Data Types in Java
 | Type    | Contains                                 | Default | Size    | Range                                                                                        |
