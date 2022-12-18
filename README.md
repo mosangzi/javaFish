@@ -6,6 +6,7 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 - [x] comment
 - [x] variable
 - [x] reference types
+- [x] String class
 
 ## Data Types in Java
 | Type    | Contains                                 | Default | Size    | Range                                                                                        |
