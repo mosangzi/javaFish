@@ -1,17 +1,17 @@
 package com.losy;
 
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
-        int zero = 0;
-        System.out.println(zero);
-        String name = "losy";
-        System.out.println(name.toUpperCase());
-        System.out.println(name.toLowerCase());
-        System.out.println(name.charAt(0));
-        String substring = "losy";
-        System.out.println(name.contains(substring));
-        System.out.println(name == substring);
-        System.out.println(name.equals(substring));
+        Date date = new Date();
+        LocalDate localDate = LocalDate.now();
+        LocalDateTime localDateTime = LocalDateTime.now();
+        System.out.println(date);
+        System.out.println(localDate);
+        System.out.println(localDateTime);
     }
 }
