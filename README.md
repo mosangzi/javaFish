@@ -23,7 +23,7 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 # Java学习
 
 ## 课程链接
-1. [Java SE](https://www.bilibili.com/video/BV1YP4y1o75f)
+### 1. [Java SE](https://www.bilibili.com/video/BV1YP4y1o75f)
 
 | 标题                                                                                                             | 时长    |
 |----------------------------------------------------------------------------------------------------------------|-------|
@@ -59,10 +59,10 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 | <input type="checkbox" checked /> [P30 面向过程实战：斐波那契数列](https://www.bilibili.com/video/BV1YP4y1o75f?p=30)        | 05:07 |
 | <input type="checkbox" checked /> [P31 初级：类与对象](https://www.bilibili.com/video/BV1YP4y1o75f?p=31)              | 03:18 |
 | <input type="checkbox" checked /> [P32 初级：类的定义与对象创建](https://www.bilibili.com/video/BV1YP4y1o75f?p=32)         | 05:21 |
-| <input type="checkbox" checked /> [P33 初级：对象的使用](https://www.bilibili.com/video/BV1YP4y1o75f?p=33)            | 13:24 |
-| <input type="checkbox" checked /> [P34 初级：方法的创建与使用](https://www.bilibili.com/video/BV1YP4y1o75f?p=34)         | 25:16 |
-| <input type="checkbox" checked /> [P35 初级：方法进阶使用](https://www.bilibili.com/video/BV1YP4y1o75f?p=35)           | 15:15 |
-| <input type="checkbox" disabled /> [P36 初级：构造方法](https://www.bilibili.com/video/BV1YP4y1o75f?p=36)             | 10:38 |
+| <input type="checkbox" checked /> [P33 初级：对象的使用](https://www.bilibili.com/video/BV1YP4y1o75f?p=33)             | 13:24 |
+| <input type="checkbox" checked /> [P34 初级：方法的创建与使用](https://www.bilibili.com/video/BV1YP4y1o75f?p=34)          | 25:16 |
+| <input type="checkbox" checked /> [P35 初级：方法进阶使用](https://www.bilibili.com/video/BV1YP4y1o75f?p=35)            | 15:15 |
+| <input type="checkbox" checked /> [P36 初级：构造方法](https://www.bilibili.com/video/BV1YP4y1o75f?p=36)              | 10:38 |
 | <input type="checkbox" disabled /> [P37 初级：静态变量和静态方法](https://www.bilibili.com/video/BV1YP4y1o75f?p=37)        | 13:55 |
 | <input type="checkbox" disabled /> [P38 初级：包声明和导入](https://www.bilibili.com/video/BV1YP4y1o75f?p=38)           | 10:48 |
 | <input type="checkbox" disabled /> [P39 初级：访问权限控制](https://www.bilibili.com/video/BV1YP4y1o75f?p=39)           | 07:48 |
@@ -166,3 +166,8 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 | <input type="checkbox" disabled /> [P137 高级：认识注解](https://www.bilibili.com/video/BV1YP4y1o75f?p=137)           | 08:33 |
 | <input type="checkbox" disabled /> [P138 高级：使用注解](https://www.bilibili.com/video/BV1YP4y1o75f?p=138)           | 07:28 |
 | <input type="checkbox" disabled /> [P139 结束语：你干嘛哎哟](https://www.bilibili.com/video/BV1YP4y1o75f?p=139)         | 02:29 |
+
+### 笔记
+
+1. 成员变量的初始化 -> 执行代码块 -> 执行构造方法（一般情况使用构造方法进行对象初始化）
+2. 
