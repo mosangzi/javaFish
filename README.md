@@ -63,7 +63,7 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 | <input type="checkbox" checked /> [P34 初级：方法的创建与使用](https://www.bilibili.com/video/BV1YP4y1o75f?p=34)          | 25:16 |
 | <input type="checkbox" checked /> [P35 初级：方法进阶使用](https://www.bilibili.com/video/BV1YP4y1o75f?p=35)            | 15:15 |
 | <input type="checkbox" checked /> [P36 初级：构造方法](https://www.bilibili.com/video/BV1YP4y1o75f?p=36)              | 10:38 |
-| <input type="checkbox" disabled /> [P37 初级：静态变量和静态方法](https://www.bilibili.com/video/BV1YP4y1o75f?p=37)        | 13:55 |
+| <input type="checkbox" checked /> [P37 初级：静态变量和静态方法](https://www.bilibili.com/video/BV1YP4y1o75f?p=37)         | 13:55 |
 | <input type="checkbox" disabled /> [P38 初级：包声明和导入](https://www.bilibili.com/video/BV1YP4y1o75f?p=38)           | 10:48 |
 | <input type="checkbox" disabled /> [P39 初级：访问权限控制](https://www.bilibili.com/video/BV1YP4y1o75f?p=39)           | 07:48 |
 | <input type="checkbox" disabled /> [P40 初级：类的封装](https://www.bilibili.com/video/BV1YP4y1o75f?p=40)             | 09:50 |
@@ -169,5 +169,5 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 
 ### 笔记
 
-1. 成员变量的初始化 -> 执行代码块 -> 执行构造方法（一般情况使用构造方法进行对象初始化）
-2. 
+1. 静态变量初始化 -> 静态代码块 -> 成员变量的初始化 -> 执行代码块 -> 执行构造方法（一般情况使用构造方法进行对象初始化）
+2. 静态变量属于类不属于对象

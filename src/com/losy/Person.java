@@ -5,6 +5,8 @@ public class Person {
     int age;
     String sex;
 
+    static String info;
+
     {
         System.out.println("我是代码块");
     }
