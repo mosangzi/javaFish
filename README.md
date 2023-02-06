@@ -1,7 +1,9 @@
 # javaBaseLearn
+
 Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK411o7YP/).
 
 # process
+
 - [x] packages
 - [x] comment
 - [x] variable
@@ -9,6 +11,7 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 - [x] String class
 
 ## Data Types in Java
+
 | Type    | Contains                                 | Default | Size    | Range                                                                                        |
 |---------|------------------------------------------|---------|---------|----------------------------------------------------------------------------------------------|
 | byte    | Signed integer                           | 0       | 1 byte  | -2<sup>7</sup> to 2<sup>7</sup>-1 or -128 to 127                                             |
@@ -23,6 +26,7 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 # Java学习
 
 ## 课程链接
+
 ### 1. [Java SE](https://www.bilibili.com/video/BV1YP4y1o75f)
 
 | 标题                                                                                                             | 时长    |
@@ -65,7 +69,7 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 | <input type="checkbox" checked /> [P36 初级：构造方法](https://www.bilibili.com/video/BV1YP4y1o75f?p=36)              | 10:38 |
 | <input type="checkbox" checked /> [P37 初级：静态变量和静态方法](https://www.bilibili.com/video/BV1YP4y1o75f?p=37)         | 13:55 |
 | <input type="checkbox" checked /> [P38 初级：包声明和导入](https://www.bilibili.com/video/BV1YP4y1o75f?p=38)            | 10:48 |
-| <input type="checkbox" disabled /> [P39 初级：访问权限控制](https://www.bilibili.com/video/BV1YP4y1o75f?p=39)           | 07:48 |
+| <input type="checkbox" checked /> [P39 初级：访问权限控制](https://www.bilibili.com/video/BV1YP4y1o75f?p=39)            | 07:48 |
 | <input type="checkbox" disabled /> [P40 初级：类的封装](https://www.bilibili.com/video/BV1YP4y1o75f?p=40)             | 09:50 |
 | <input type="checkbox" disabled /> [P41 初级：类的继承](https://www.bilibili.com/video/BV1YP4y1o75f?p=41)             | 23:31 |
 | <input type="checkbox" disabled /> [P42 初级：Object类](https://www.bilibili.com/video/BV1YP4y1o75f?p=42)          | 10:22 |
@@ -171,3 +175,13 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 
 1. 静态变量初始化 -> 静态代码块 -> 成员变量的初始化 -> 执行代码块 -> 执行构造方法（一般情况使用构造方法进行对象初始化）
 2. 静态变量属于类不属于对象
+3. 访问权限控制
+
+|           | 当前类 | 同一个包下的类 | 不同包下的子类 | 不同包下的类 |
+|-----------|-----|---------|---------|--------|
+| public    | Y   | Y       | Y       | Y      |
+| protected | Y   | Y       | Y       | N      |
+| default   | Y   | Y       | N       | N      |
+| private   | Y   | N       | N       | N      |
+
+4.
