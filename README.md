@@ -73,7 +73,7 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 | <input type="checkbox" checked /> [P40 初级：类的封装](https://www.bilibili.com/video/BV1YP4y1o75f?p=40)              | 09:50 |
 | <input type="checkbox" checked /> [P41 初级：类的继承](https://www.bilibili.com/video/BV1YP4y1o75f?p=41)              | 23:31 |
 | <input type="checkbox" checked /> [P42 初级：Object类](https://www.bilibili.com/video/BV1YP4y1o75f?p=42)           | 10:22 |
-| <input type="checkbox" disabled /> [P43 初级：方法的重写](https://www.bilibili.com/video/BV1YP4y1o75f?p=43)            | 20:32 |
+| <input type="checkbox" checked /> [P43 初级：方法的重写](https://www.bilibili.com/video/BV1YP4y1o75f?p=43)             | 20:32 |
 | <input type="checkbox" disabled /> [P44 初级：抽象类](https://www.bilibili.com/video/BV1YP4y1o75f?p=44)              | 08:11 |
 | <input type="checkbox" disabled /> [P45 初级：接口（一）](https://www.bilibili.com/video/BV1YP4y1o75f?p=45)            | 20:20 |
 | <input type="checkbox" disabled /> [P46 初级：接口（二）](https://www.bilibili.com/video/BV1YP4y1o75f?p=46)            | 08:41 |
@@ -173,9 +173,14 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 
 ### 笔记
 
+#### 静态变量
+
 1. 静态变量初始化 -> 静态代码块 -> 成员变量的初始化 -> 执行代码块 -> 执行构造方法（一般情况使用构造方法进行对象初始化）
 2. 静态变量属于类不属于对象
-3. 访问权限控制
+
+#### 权限控制
+
+1. 访问权限控制
 
 |           | 当前类 | 同一个包下的类 | 不同包下的子类 | 不同包下的类 |
 |-----------|-----|---------|---------|--------|
@@ -184,4 +189,8 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 | default   | Y   | Y       | N       | N      |
 | private   | Y   | N       | N       | N      |
 
-4.
+#### 重写
+
+1. 方法重写时，使用哪个类里面的方法要看具体是哪个对象（右侧new的类）
+2. 方法重写时，子类权限要比父类更开放或相同，不能更小
+3. 如果不希望子类重写该方法，在父类添加final关键字；如果某个类不希望有子类，也可以添加final关键字

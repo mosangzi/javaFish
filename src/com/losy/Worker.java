@@ -11,4 +11,9 @@ public class Worker extends Person {
         System.out.println("我叫" + super.name + "，我在工作");
         System.out.println("我叫" + this.name + "，我在工作");
     }
+
+    @Override
+    public void test() {
+        System.out.println("我是工人");
+    }
 }
