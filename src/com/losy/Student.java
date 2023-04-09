@@ -5,12 +5,8 @@ public class Student extends Person {
         super(name, age, sex);
     }
 
-    public void study() {
-        System.out.println("我是学生，我叫" + name);
-    }
-
     @Override
-    public void test() {
-        System.out.println("我是学生");
+    protected void exam() {
+        System.out.println("数学考试");
     }
 }

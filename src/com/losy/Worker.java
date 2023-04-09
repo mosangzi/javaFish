@@ -7,13 +7,13 @@ public class Worker extends Person {
         super(name, age, sex);
     }
 
+    @Override
+    protected void exam() {
+        System.out.println("高空证考试");
+    }
+
     public void work() {
         System.out.println("我叫" + super.name + "，我在工作");
         System.out.println("我叫" + this.name + "，我在工作");
-    }
-
-    @Override
-    public void test() {
-        System.out.println("我是工人");
     }
 }
