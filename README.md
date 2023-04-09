@@ -10,19 +10,6 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 - [x] reference types
 - [x] String class
 
-## Data Types in Java
-
-| Type    | Contains                                 | Default | Size    | Range                                                                                        |
-|---------|------------------------------------------|---------|---------|----------------------------------------------------------------------------------------------|
-| byte    | Signed integer                           | 0       | 1 byte  | -2<sup>7</sup> to 2<sup>7</sup>-1 or -128 to 127                                             |
-| short   | Signed integer                           | 0       | 2 bytes | -2<sup>15</sup> to 2<sup>15</sup>-1 or -32,768 to 32767                                      |
-| int     | Signed integer                           | 0       | 4 bytes | -2<sup>31</sup> to 2<sup>31</sup>-1 or -2147,483,648 to 2147,483,647                         |
-| long    | Signed integer                           | 0       | 8 bytes | -2<sup>63</sup> to 2<sup>63</sup>-1 or -9223,372,036,854,755,808 to 9223,372,036,854,755,807 |
-| float   | IEEE 754 floating point single-precision | 0.0f    | 4 bytes | ±1.4E-45 to ±3.40282347E+38F                                                                 |
-| double  | IEEE 754 floating point double-precision | 0.0     | 8 bytes | ±439E-324 to ±1.7976931348623157E+308                                                        |
-| char    | Unicode character unsigned               | \u0000  | 2 bytes | 0 to 2<sup>16</sup>-1 or \u0000 to \uFFFF                                                    |
-| boolean | true or false                            | false   | 1 bit   | true or false                                                                                |
-
 # Java学习
 
 ## 课程链接
@@ -87,8 +74,8 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 | <input type="checkbox" disabled /> [P54 初级：StringBuilder类](https://www.bilibili.com/video/BV1YP4y1o75f?p=54)   | 12:00 |
 | <input type="checkbox" disabled /> [P55 初级：正则表达式](https://www.bilibili.com/video/BV1YP4y1o75f?p=55)            | 08:51 |
 | <input type="checkbox" disabled /> [P56 初级：成员内部类](https://www.bilibili.com/video/BV1YP4y1o75f?p=56)            | 11:53 |
-| <input type="checkbox" disabled /> [P57 初级：静态内部类和局部内部类](https://www.bilibili.com/video/BV1YP4y1o75f?p=57)      | 04:36 |
-| <input type="checkbox" disabled /> [P58 初级：匿名内部类](https://www.bilibili.com/video/BV1YP4y1o75f?p=58)            | 11:46 |
+| <input type="checkbox" checked /> [P57 初级：静态内部类和局部内部类](https://www.bilibili.com/video/BV1YP4y1o75f?p=57)       | 04:36 |
+| <input type="checkbox" checked /> [P58 初级：匿名内部类](https://www.bilibili.com/video/BV1YP4y1o75f?p=58)             | 11:46 |
 | <input type="checkbox" disabled /> [P59 初级：Lambda表达式](https://www.bilibili.com/video/BV1YP4y1o75f?p=59)        | 13:21 |
 | <input type="checkbox" disabled /> [P60 初级：方法引用](https://www.bilibili.com/video/BV1YP4y1o75f?p=60)             | 07:56 |
 | <input type="checkbox" disabled /> [P61 初级：异常机制](https://www.bilibili.com/video/BV1YP4y1o75f?p=61)             | 13:54 |
@@ -170,27 +157,3 @@ Learn Java base with [YouTube Amigoscode](https://www.bilibili.com/video/BV1aK41
 | <input type="checkbox" disabled /> [P137 高级：认识注解](https://www.bilibili.com/video/BV1YP4y1o75f?p=137)           | 08:33 |
 | <input type="checkbox" disabled /> [P138 高级：使用注解](https://www.bilibili.com/video/BV1YP4y1o75f?p=138)           | 07:28 |
 | <input type="checkbox" disabled /> [P139 结束语：你干嘛哎哟](https://www.bilibili.com/video/BV1YP4y1o75f?p=139)         | 02:29 |
-
-### 笔记
-
-#### 静态变量
-
-1. 静态变量初始化 -> 静态代码块 -> 成员变量的初始化 -> 执行代码块 -> 执行构造方法（一般情况使用构造方法进行对象初始化）
-2. 静态变量属于类不属于对象
-
-#### 权限控制
-
-1. 访问权限控制
-
-|           | 当前类 | 同一个包下的类 | 不同包下的子类 | 不同包下的类 |
-|-----------|-----|---------|---------|--------|
-| public    | Y   | Y       | Y       | Y      |
-| protected | Y   | Y       | Y       | N      |
-| default   | Y   | Y       | N       | N      |
-| private   | Y   | N       | N       | N      |
-
-#### 重写
-
-1. 方法重写时，使用哪个类里面的方法要看具体是哪个对象（右侧new的类）
-2. 方法重写时，子类权限要比父类更开放或相同，不能更小
-3. 如果不希望子类重写该方法，在父类添加final关键字；如果某个类不希望有子类，也可以添加final关键字
