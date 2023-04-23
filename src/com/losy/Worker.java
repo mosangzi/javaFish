@@ -9,7 +9,7 @@ public class Worker extends Person {
 
     @Override
     protected void exam() {
-        System.out.println("高空证考试");
+        System.out.println("参加高空证考试");
     }
 
     public void work() {
